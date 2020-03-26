@@ -7,7 +7,7 @@
 ```
 "plugins": [
     {
-      "name": "qsso",
+      "name": "qsso-qishi",
       "options": {
         "type": "sso",
         "loginUrl": "http://sso.example.com/service/verifytoken.php?token=",
@@ -25,7 +25,8 @@
 - `AUTH_SERVER` 点击登陆按钮式需要跳转的url，用户通过该页面登录以后会向服务器发送一个token
 
 
-第二步：在config.json 这层目录下运行 ```yapi plugin --name yapi-plugin-qsso```   重新下载插件  
+第二步：在config.json 这层目录下运行 ```yapi plugin --name yapi-plugin-qsso-qishi```   重新下载插件  
 
 第三步： 重启服务器
 
+# fork https://github.com/YMFE/yapi-plugin-qsso.git

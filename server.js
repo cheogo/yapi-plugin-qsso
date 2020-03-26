@@ -11,8 +11,8 @@ module.exports = function (options) {
           let result = JSON.parse(body);
           if (result && result.ret === true) {
             let ret = {
-              email: result.userId + emailPostfix,
-              username: result.data.userInfo.name
+              email: result.data.userSign + emailPostfix,
+              username: result.data.userSign
             };
             resolve(ret);
           } else {
